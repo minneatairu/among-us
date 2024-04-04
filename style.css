@@ -123,7 +123,7 @@ model-viewer {
   .close {
     color: #F3F1E8;
     float: right;
-    font-size: 28px;
+
     POSITION: fixed;
     right: 20px;
     cursor: pointer;
