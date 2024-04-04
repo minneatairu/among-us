@@ -81,10 +81,17 @@ model-viewer {
     overflow: auto; /* Enable scroll if needed */
 
   }
+
+
   .bio img {
     width: 100%; /* Makes images responsive */
     height: auto;
     filter: grayscale(100%); /* Converts images to grayscale */
+    transition: filter 0.5s ease; /* Smooth transition for the filter effect */
+  }
+  
+  .bio img:hover {
+    filter: none; /* Removes the filter on hover, showing the image in full color */
   }
   
   a{color: #F3F1E8; text-decoration: underline;}
