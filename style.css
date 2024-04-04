@@ -141,6 +141,6 @@ model-viewer {
   /* Style for the Read More link */
   .read-more-link {
     cursor: pointer;
-    color: blue;
+    color: #F3F1E8;
     text-decoration: underline;
   }
