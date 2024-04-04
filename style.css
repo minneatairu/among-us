@@ -2,7 +2,7 @@ body {
     font-family: "Fraunces", serif;
     background: #000; color:#F3F1E8
 }
-h1 {font-size: 5VW;    margin-block-start: 0;
+h1 {font-size: 5VW;    margin-block-start: 0;    line-height: 1;
     margin-block-end: 0.67em;}
 
 model-viewer {
