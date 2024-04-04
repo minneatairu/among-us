@@ -14,12 +14,36 @@
 <body>
     <h1>AMONG US</h1>
     <div class="container">
-        <model-viewer src="poly-5.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls
+        <model-viewer id="slide1" src="poly-5.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls
             tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" min-camera-orbit="auto 0deg auto"
             max-camera-orbit="auto 78deg auto" camera-orbit="-477deg 70.11deg 0.8348m" field-of-view="24.59deg">
         </model-viewer>
-
+        <model-viewer id="slide2" src="model2.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls
+            tone-mapping="commerce" style="display:none;">
+        </model-viewer>
+        <model-viewer id="slide3" src="model3.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls
+            tone-mapping="commerce" style="display:none;">
+        </model-viewer>
     </div>
+
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+    
+        function showSlides() {
+            let slides = document.querySelectorAll('model-viewer');
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+    
+    
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
 </body>
 
