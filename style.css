@@ -21,7 +21,7 @@ model-viewer {
   }
   .modal-content {
     display: grid;
-    grid-template-columns: 2fr 1fr; /* 2fr for the first column, and 1fr for the second */
+    grid-template-columns: 2fr 1fr; 
   }
   
   .prev {
@@ -151,4 +151,12 @@ model-viewer {
     cursor: pointer;
     color: #F3F1E8;
     text-decoration: underline;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .modal-content, .bio {
+        grid-template-columns:  1fr; 
+      }
+      
+
   }
