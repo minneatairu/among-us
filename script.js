@@ -50,9 +50,13 @@ window.onclick = function(event) {
 //read more
 function toggleReadMore(contentId) {
     var content = document.getElementById(contentId);
-    if (content.style.display === "none") {
+    var plusIcon = content.previousElementSibling.querySelector('.plus-icon');
+    if (content.style.display === "none" || !content.style.display) {
       content.style.display = "block";
+      plusIcon.classList.add('active'); // Rotate the plus icon
     } else {
       content.style.display = "none";
+      plusIcon.classList.remove('active'); // Return the plus icon to its original state
     }
   }
+  

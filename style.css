@@ -81,7 +81,7 @@ model-viewer {
     overflow: auto; /* Enable scroll if needed */
 
   }
-.bio-title{margin-top: 2rem;}
+.bio-title{margin-top: 2rem;margin-bottom: 2em;margin-block-end: 0;}
 
   .bio img {
     width: 100%; /* Makes images responsive */
@@ -100,6 +100,15 @@ model-viewer {
     background-color: black;
     padding: 20px;
     font-size: 3rem;
+  }
+  .plus-icon {
+    display: inline-block;
+    transition: transform 0.5s ease;
+  }
+  
+  /* When plus icon is "active" or the content is shown, rotate it by 45 degrees */
+  .plus-icon.active {
+    transform: rotate(45deg);
   }
   
   /* The Close Button */
