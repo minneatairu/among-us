@@ -21,7 +21,7 @@ model-viewer {
   }
   .modal-content {
     display: grid;
-    grid-template-columns: 3fr 1fr; /* 2fr for the first column, and 1fr for the second */
+    grid-template-columns: 2fr 1fr; /* 2fr for the first column, and 1fr for the second */
   }
   
 
