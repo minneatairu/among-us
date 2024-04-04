@@ -81,7 +81,7 @@ model-viewer {
     overflow: auto; /* Enable scroll if needed */
 
   }
-  
+  a{color: black; text-decoration: underline;}
   /* Modal Content */
   .modal-content {
     background-color: black;
