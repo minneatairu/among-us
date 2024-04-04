@@ -6,7 +6,7 @@ h1 {font-size: 5VW;}
 
 model-viewer {
     width: 100vw; /* 100% of the viewport width */
-    height: 100vh; /* 100% of the viewport height */
+    height: 90vh; /* 100% of the viewport height */
 }
 
 /* Add to style.css */
