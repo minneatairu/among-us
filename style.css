@@ -27,11 +27,9 @@ model-viewer {
     padding: 16px;
     margin-top: -22px;
     color: white;
-    font-weight: bold;
     font-size: 24px; /* Adjust icon size here */
-    transition: 0.6s ease;
     user-select: none;
-    background-color: rgba(0,0,0,0.8); /* Optional: Background color */
+    background-color: black
   }
   
   .material-icons {
@@ -53,7 +51,6 @@ model-viewer {
     bottom: 8px;
     width: 100%;
     text-align: center;
-    background-color: rgba(0,0,0,0.5); /* Semi-transparent background */
   }
 
   /* The button */
@@ -65,7 +62,7 @@ model-viewer {
     padding: 10px;
     font-size: 16px;
     color: white;
-    border: none;
+    border: none;background-color: #000;
     cursor: pointer;
   }
   
