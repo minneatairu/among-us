@@ -2,7 +2,7 @@ body {
     font-family: 'Ojuju', sans-serif;
     background: black; color:#fff
 }
-hi {font-size: large;}
+h1 {font-size: large;}
 
 model-viewer {
     width: 100vw; /* 100% of the viewport width */
