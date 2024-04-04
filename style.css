@@ -21,19 +21,12 @@ model-viewer {
   }
   .modal-content {
     display: grid;
-    grid-template-columns: 2fr 0.5fr; /* 2fr for the first column, and 1fr for the second */
-    gap: 10px; /* Adjust the gap between columns */
+    grid-template-columns: 3fr 1fr; /* 2fr for the first column, and 1fr for the second */
   }
   
-  .close {
-    cursor: pointer;
-    /* Add more styles for the close button */
-  }
+
   
-  /* Additional styles for column content */
-  .column1, .column2 {
-    padding: 20px; /* Add padding */
-  }
+
   .prev, .next {
     cursor: pointer;
     position: absolute;
