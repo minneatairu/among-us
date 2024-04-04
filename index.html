@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,14 +10,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Among Us</h1>
     <div class="grid-container">
-        <!-- Placeholder for 3D models -->
-        <model-viewer src="model1.glb" alt="Among Us Character 1"></model-viewer>
-        <model-viewer src="model2.glb" alt="Among Us Character 2"></model-viewer>
-        <model-viewer src="model3.glb" alt="Among Us Character 3"></model-viewer>
+        <model-viewer src="poly-5.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls
+            tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" min-camera-orbit="auto 0deg auto"
+            max-camera-orbit="auto 78deg auto" camera-orbit="-477deg 70.11deg 0.8348m" field-of-view="24.59deg">
+        </model-viewer>
+
     </div>
     <script src="https://modelviewer.dev/releases/latest/dist/model-viewer.min.js"></script>
 </body>
+
 </html>
