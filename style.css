@@ -73,7 +73,7 @@ model-viewer {
     z-index: 99;
     padding: 10px;
     font-size: 16px;
-    color: white;
+    color: #F3F1E8;
     border: none;background-color: #000;
     cursor: pointer;
   }
