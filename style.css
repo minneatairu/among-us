@@ -1,6 +1,6 @@
 body {
     font-family: "Plus Jakarta Sans", sans-serif;
-    background: black; color:#fff
+    background: #121212; color:#F3F1E8
 }
 h1 {font-size: 5VW;    margin-block-start: 0;
     margin-block-end: 0.67em;}
@@ -43,7 +43,7 @@ model-viewer {
     width: auto;
     padding: 16px;
     margin-top: -22px;
-    color: white;
+    color: #F3F1E8;
     font-size: 24px; /* Adjust icon size here */
     user-select: none;
     background-color: black
@@ -51,12 +51,12 @@ model-viewer {
   
   .material-icons {
     font-size: 24px; /* Icon size */
-    color: white; /* Icon color */
+    color:#F3F1E8; /* Icon color */
   }
   
 
   .caption {
-    color: #ffffff;
+    color: #F3F1E8;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
@@ -101,7 +101,7 @@ model-viewer {
   
   /* The Close Button */
   .close {
-    color: #aaaaaa;
+    color: #F3F1E8;
     float: right;
     font-size: 28px;
     font-weight: bold;
