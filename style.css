@@ -87,7 +87,7 @@ model-viewer {
     filter: grayscale(100%); /* Converts images to grayscale */
   }
   
-  a{color: black; text-decoration: underline;}
+  a{color: #F3F1E8; text-decoration: underline;}
   /* Modal Content */
   .modal-content {
     background-color: black;
