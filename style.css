@@ -116,7 +116,7 @@ model-viewer {
     color: #F3F1E8;
     float: right;
     font-size: 28px;
-    POSITION: ABSOLUTE;
+    POSITION: fixed;
     right: 20px;
     cursor: pointer;
   }
