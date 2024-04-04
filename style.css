@@ -81,6 +81,12 @@ model-viewer {
     overflow: auto; /* Enable scroll if needed */
 
   }
+  .bio img {
+    width: 100%; /* Makes images responsive */
+    height: auto;
+    filter: grayscale(100%); /* Converts images to grayscale */
+  }
+  
   a{color: black; text-decoration: underline;}
   /* Modal Content */
   .modal-content {
