@@ -24,7 +24,15 @@ model-viewer {
     grid-template-columns: 2fr 1fr; /* 2fr for the first column, and 1fr for the second */
   }
   
-
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 0 3px 3px 0;
+  }
   
 
   .prev, .next {
