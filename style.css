@@ -1,12 +1,7 @@
 body {
     font-family: 'Ojuju', sans-serif;
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
-}
+hi {font-size: large;}
 
 model-viewer {
     width: 100vw; /* 100% of the viewport width */
