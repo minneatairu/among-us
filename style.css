@@ -81,7 +81,7 @@ model-viewer {
     overflow: auto; /* Enable scroll if needed */
 
   }
-
+.bio-title{margin-top: 2rem;}
 
   .bio img {
     width: 100%; /* Makes images responsive */
