@@ -37,12 +37,7 @@ model-viewer {
     color: white; /* Icon color */
   }
   
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
+
   .caption {
     color: #ffffff;
     font-size: 15px;
@@ -94,11 +89,3 @@ model-viewer {
     font-size: 28px;
     font-weight: bold;
   }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
