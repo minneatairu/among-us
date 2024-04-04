@@ -68,7 +68,7 @@ model-viewer {
     border: none;background-color: #000;
     cursor: pointer;
   }
-  
+  .bio-text{text-align: justify;}
   /* The Modal (background) */
   .modal {
     display: none; /* Hidden by default */
