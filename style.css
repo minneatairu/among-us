@@ -98,3 +98,27 @@ model-viewer {
     right: 20px;
     cursor: pointer;
   }
+
+  .bio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates a two-column grid */
+    gap: 20px; /* Space between grid items */
+    margin-top: 20px; /* Space above the bio section */
+  }
+  
+  .bio img {
+    width: 100%; /* Makes images responsive */
+    height: auto;
+  }
+  
+  .read-more-content {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  /* Style for the Read More link */
+  .read-more-link {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+  }
