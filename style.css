@@ -44,7 +44,7 @@ model-viewer {
     margin-top: -22px;
     color: #F3F1E8;
     font-size: 24px; /* Adjust icon size here */
-    user-select: none;
+    user-select: none;    TEXT-DECORATION: NONE;
 
   }
   
