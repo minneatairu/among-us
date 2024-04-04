@@ -107,7 +107,7 @@ model-viewer {
   /* Modal Content */
   .modal-content {
     background-color: black;
-    padding: 20px;
+    padding:0 20px;
     font-size: calc(1rem + 1.4vw);
 }
   .plus-icon {
