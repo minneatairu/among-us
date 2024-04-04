@@ -2,7 +2,7 @@ body {
     font-family: "Plus Jakarta Sans", sans-serif;
     background: black; color:#fff
 }
-h1 {font-size: large;}
+h1 {font-size: 5VW;}
 
 model-viewer {
     width: 100vw; /* 100% of the viewport width */
@@ -52,7 +52,7 @@ model-viewer {
   }
   
   .caption {
-    color: #f2f2f2;
+    color: #ffffff;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
