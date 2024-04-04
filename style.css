@@ -2,11 +2,12 @@ body {
     font-family: "Plus Jakarta Sans", sans-serif;
     background: black; color:#fff
 }
-h1 {font-size: 5VW;}
+h1 {font-size: 5VW;    margin-block-start: 0;
+    margin-block-end: 0.67em;}
 
 model-viewer {
     width: 100vw; /* 100% of the viewport width */
-    height: 90vh; /* 100% of the viewport height */
+    height: 80vh; /* 100% of the viewport height */
 }
 
 /* Add to style.css */
